@@ -1,0 +1,76 @@
+/* Estilo para a página */
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgb(27, 118, 255),rgb(87, 188, 255), #bde9ff);
+}
+
+/* Estilo para as seções */
+.section {
+  background-color: white;
+  border: 1px solid #b6b6b6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Estilo para o cabeçalho das seções (h2) */
+h2 {
+  color: #007bff; /* Azul celeste */
+  text-align: center;
+  font-size: 24px; /* Tamanho maior para dispositivos móveis */
+}
+
+/* Estilo para o texto do parágrafo */
+p {
+  color: #444; /* Um pouco mais escuro */
+  text-align: center;
+}
+
+/* Estilo para as labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Estilo para os campos de entrada de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px -10px; /* Margem inferior menor */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para os botões */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Estilo para a tabela de classificação do IMC */
+table {
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px; /* Maior margem superior para dispositivos móveis */
+}
+
+/* Estilo para as células da tabela */
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(54, 134, 255);
+  color: white;
+  border: 1px solid rgb(4, 85, 235);
+}
