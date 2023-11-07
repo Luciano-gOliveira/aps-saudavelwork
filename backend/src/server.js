@@ -29,5 +29,7 @@ app.get('/script.js', (req, res) => {
 });
 
 
-const port = 3000;
-app.listen(port, () => console.log(`Servidor Express em execução na porta ${port}`));
+const port = process.env.PORT;
+app.listen(port, function(){  
+  console.info(`Server running in the port ${port}`);
+});
